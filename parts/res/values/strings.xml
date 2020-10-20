@@ -55,4 +55,14 @@
     <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
     <string name="dc_dimming_disable_hbm_first">Disable High Brightness Mode to enable DC Dimming</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Touch Control</string>
+    <string name="touch_game_mode_title">Enable</string>
+    <string name="touch_response_title">Responsivity</string>
+    <string name="touch_response_summary">Controls touch response</string>
+    <string name="touch_sensitivity_title">Sensitivity</string>
+    <string name="touch_sensitivity_summary">Controls touch sensitivity for repeated taps</string>
+    <string name="touch_resistant_title">Resistant area</string>
+    <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
 </resources>
