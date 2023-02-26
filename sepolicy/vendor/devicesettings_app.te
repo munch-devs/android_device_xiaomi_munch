@@ -1,3 +1,9 @@
 # Allow devicesettings_app to operate with vendor_sysfs_graphics
 r_dir_file(devicesettings_app, vendor_sysfs_graphics)
 allow devicesettings_app vendor_sysfs_graphics:file w_file_perms;
+
+# Allow devicesettings_app to find hal_touchfeature_xiaomi_hwservice
+allow devicesettings_app hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
+
+# Allow binder communication with hal_touchfeature_xiaomi_default
+binder_call(devicesettings_app, hal_touchfeature_xiaomi_default)
