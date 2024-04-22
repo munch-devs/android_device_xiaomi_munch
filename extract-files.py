@@ -55,6 +55,11 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .add_needed('libinput_shim.so'),
+    'vendor/etc/msm_irqbalance.conf' : blob_fixup()
+        .regex_replace(
+            r'(IGNORED_IRQ=27,23,38)$',
+            r'\1,115,332'
+        ),
 }  # fmt: skip
 
 
