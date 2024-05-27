@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.xiaomi_munch)
 
 # Consumer IR
 PRODUCT_PACKAGES += \
