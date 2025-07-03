@@ -41,3 +41,9 @@ persist.vendor.vonr_setting_support=1
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# About phone (InfinityX)
+ro.infinity.soc=Snapdragon 870 5G
+ro.infinity.battery=4500 mAh
+ro.infinity.display=1080 x 2400, 120 Hz
+ro.infinity.camera=64/48MP + 8MP + 2MP
