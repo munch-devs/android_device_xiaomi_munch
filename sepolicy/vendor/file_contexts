@@ -14,6 +14,10 @@
 # Charger
 /vendor/bin/batterysecret                                                                           u:object_r:vendor_batterysecret_exec:s0
 
+# DC Dimming & HBM
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm                                                    u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure                                      u:object_r:vendor_sysfs_graphics:s0
+
 # Fingerprint
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi                           u:object_r:hal_fingerprint_default_exec:s0
 

@@ -33,4 +33,26 @@
     <string name="refresh_standard">60Hz</string>   
     <string name="refresh_extreme">120Hz</string>    
     <string name="refresh_land">60Hz on Landscape</string>       
+
+    <!-- HBM settings -->
+    <string name="hbm_fragment_title">High brightness mode</string>
+    <string name="hbm_fragment_summary">Settings for HBM</string>
+    <string name="hbm_mode_title">HBM</string>
+    <string name="hbm_mode_summary">Enable peak luminance</string>
+    <string name="auto_hbm_title">Automatic HBM</string>
+    <string name="auto_hbm_summary">Enable peak luminance based on sunlight</string>
+    <string name="auto_hbm_threshold_title"></string>
+    <string name="auto_hbm_threshold_summary">threshold (lux)</string>
+    <string name="hbm_disable_time_title"></string>
+    <string name="hbm_disable_time_summary">disable delay (seconds)</string>
+    <string name="hbm_mode_warning">Long time usage of High brightness mode may damage your display</string>
+    <string name="hbm_disable_dc_dimming_first">Disable DC Dimming to enable High Brightness Mode</string>
+    <string name="hbm_turn_off_on_screen_off_title">Turn off HBM on screen off</string>
+    <string name="hbm_turn_off_on_screen_off_summary">Automatically turn off HBM when the screen turns off</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">DC Dimming</string>
+    <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
+    <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
+    <string name="dc_dimming_disable_hbm_first">Disable High Brightness Mode to enable DC Dimming</string>
 </resources>
