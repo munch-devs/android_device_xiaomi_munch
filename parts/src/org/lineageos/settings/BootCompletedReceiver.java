@@ -24,6 +24,7 @@ import android.util.Log;
 
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -38,5 +39,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Pocket
         PocketService.startService(context);
 
+        // Refresh rate
+        RefreshUtils.startService(context);
     }
 }
