@@ -5,3 +5,5 @@ type hall_device, dev_type;
 type sound_device, dev_type;
 
 type ultrasound_device, dev_type;
+
+type ntsync_device, dev_type;

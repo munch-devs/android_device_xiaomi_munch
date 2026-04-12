@@ -1,0 +1,2 @@
+# NTSync
+allow system_server ntsync_device:chr_file { getattr open read write ioctl };
