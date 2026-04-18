@@ -33,7 +33,7 @@ public class AutoHBMThresholdPreference extends CustomSeekBarPreference {
     public AutoHBMThresholdPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        mInterval = 1000;
+        mInterval = 100;
         mShowSign = false;
         mUnits = "";
         mContinuousUpdates = false;
