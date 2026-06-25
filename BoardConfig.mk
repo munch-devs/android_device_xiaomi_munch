@@ -86,6 +86,9 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/munch
 TARGET_KERNEL_CONFIG := munch_defconfig
 
+# Kernel Clang
+TARGET_KERNEL_CLANG_VERSION := r563880c
+
 # Miui Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
 
