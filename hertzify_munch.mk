@@ -26,5 +26,5 @@ HERTZIFY_BUILD_TYPE := OFFICIAL
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="munch-user 13 RKQ1.211001.001 V816.0.9.0.ULMMIXM release-keys" \
-    BuildFingerprint=POCO/munch_global/munch:13/RKQ1.211001.001/V816.0.9.0.ULMMIXM:user/release-keys
+    BuildDesc="munch-user 13 RKQ1.211001.001 V816.0.12.0.ULMMIXM release-keys" \
+    BuildFingerprint=POCO/munch_global/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys

@@ -11,9 +11,9 @@
 
 #include <libvariant.h>
 
-#define FINGERPRINT_GL "POCO/munch_global/munch:13/RKQ1.211001.001/V816.0.9.0.ULMMIXM:user/release-keys"
-#define FINGERPRINT_CN "Redmi/munch/munch:13/RKQ1.211001.001/V816.0.9.0.ULMMIXM:user/release-keys"
-#define FINGERPRINT_IN "POCO/munch_in/munch:13/RKQ1.211001.001/V816.0.9.0.ULMMIXM:user/release-keys"
+#define FINGERPRINT_GL "POCO/munch_global/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys"
+#define FINGERPRINT_CN "Redmi/munch/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys"
+#define FINGERPRINT_IN "POCO/munch_in/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys"
 
 static const variant_info munch_in_info = {
     .hwc_value = "INDIA",
