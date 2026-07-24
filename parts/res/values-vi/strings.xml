@@ -53,4 +53,19 @@
     <string name="dc_dimming_enable_summary">Giảm mỏi mắt trong điều kiện ánh sáng yếu</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming hiện chưa được kernel hỗ trợ</string>
     <string name="dc_dimming_disable_hbm_first">Vui lòng tắt High Brightness Mode trước khi bật DC Dimming</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Tùy chỉnh độ nhạy cử chỉ chạm cảm ứng</string>
+    <string name="touch_game_mode_title">Bật</string>
+    <string name="touch_response_title">Độ nhạy</string>
+    <string name="touch_response_summary">Tùy chỉnh độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_title">Độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_summary">Tùy chỉnh độ nhạy cảm ứng cho các lần chạm lặp lại</string>
+    <string name="touch_resistant_title">Khu vực chống chạm</string>
+    <string name="touch_resistant_summary">Giảm độ nhạy cảm ứng gần các cạnh để tránh kích hoạt điều khiển cảm ứng</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Làm sạch loa</string>
+    <string name="clear_speaker_summary">Phát âm thanh trong 30 giây để làm sạch loa</string>
+    <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa bị chặn bởi bụi. Đặt âm lượng phát lại tối đa.\n\nNếu loa bị chặn nhiều, chạy tính năng này 2-5 lần trong khi lắc thiết bị với loa hướng xuống.\n\nCẢNH BÁO: Đảm bảo không có tai nghe nào cắm vào.</string>
 </resources>
