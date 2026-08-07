@@ -25,3 +25,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="munch-user 13 RKQ1.211001.001 V816.0.12.0.ULMMIXM release-keys" \
     BuildFingerprint=Redmi/munch/munch:13/RKQ1.211001.001/V816.0.12.0.ULMMIXM:user/release-keys
+
+# Lunaris
+TARGET_DISABLE_EPPE := true
+TARGET_OPTIMIZED_DEXOPT := true
+WITH_GMS := true
+WITH_BCR := true
+WITH_PIXEL_LAUNCHER := true
+TARGET_USE_GPHOTOS := false
+USE_REALITY_ENGINE := true
