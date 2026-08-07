@@ -9,4 +9,10 @@
 
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">true</bool>
+
+     <!-- About device screen, build maintainer -->
+     <string name="lunaris_device_message">POCO F4</string>
+     <string name="lunaris_processor_code_message">Snapdragon® 870 5G</string>
+     <string name="lunaris_battery_type_message">4500 mAh</string>
+     <string name="lunaris_screen_message">AMOLED 120Hz</string>
 </resources>
