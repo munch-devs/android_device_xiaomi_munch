@@ -481,3 +481,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # socinfo
 /sys/devices/soc0           serial_number            0000    root    root
+
+# ntsync
+/dev/ntsync               0666   system     system
