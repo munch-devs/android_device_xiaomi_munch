@@ -90,9 +90,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/xiaomi/sm8250-common.config \
 	vendor/xiaomi/munch.config
 
-# Kernel Clang Flags
-TARGET_KERNEL_CLANG_VERSION := r563880c
-
 # Miui Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
 
